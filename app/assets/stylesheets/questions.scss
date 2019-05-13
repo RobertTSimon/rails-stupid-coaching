@@ -1,0 +1,50 @@
+@import "bootstrap";
+
+body {
+  background: #EEEEEE;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color: grey;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+.question, .answer {
+  border: 1px solid #D3D3D3;
+  padding: 6px;
+  margin: 0 auto;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 4px;
+  margin-bottom: 4px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.question-input {
+  border: 1px solid #D3D3D3;
+  padding: 6px;
+  margin: 0 auto;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+/*.answer {
+  border: 1px solid #D3D3D3;
+  padding: 6px;
+  margin: 0 auto;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 4px;
+}*/
+
